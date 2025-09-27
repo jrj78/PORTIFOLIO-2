@@ -41,6 +41,11 @@ h2.titulo span{
     color: #fcf128;
 }
 
+button:hover{
+    box-shadow: 0px 0px 8px #8a90ee;
+    transform: scale(1.05);
+}
+
 /*ESTILO DO CABEÇALHO*/
 header{
     padding: 40px 4%;
@@ -73,10 +78,7 @@ header nav ul li{
     padding: 0 40px;
 }
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #8a90ee;
-    transform: scale(1.05);
-}
+
 
 /* ESTILO DO TOPO DO SITE */
 section.topo-do-site{
@@ -153,4 +155,72 @@ section.especialidades{
     color: #fff;
     margin-bottom: 10px;
     margin: 20px 0;
+}
+
+/*ESTILO DO SOBRE*/
+section.sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    gap: 80px;
+    align-items: center;
+}
+
+.sobre .txt-sobre{
+    color: #020526;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #fcf128;
+    display:block;
+}
+
+.sobre .txt-sobre p{
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.sobre .img-sobre img{
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #8a90ee;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgb(248, 239, 174);
+    font-size: 22px;
+    cursor: progressor;
+    margin: 10px;
+    transition:  .3s;
+}
+
+/*ESTILO DO PORTIFÓLIO*/
+section.portifolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #8a90ee;
+}
+
+section.portifolio .flex{
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-port{
+    width: 360px;
+    height: 460px;
+    background-color: #a4a5f3;
 }
