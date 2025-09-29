@@ -1,2 +1,3 @@
-Iniciando Portifolio com layout diferente.
-css incluído, mas ainda em continuidade
+Projeto Portifólio 2
+
+desenvolvendo o formulário
